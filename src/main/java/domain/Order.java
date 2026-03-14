@@ -25,4 +25,12 @@ public class Order {
 
         return new Money(total);
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public List<OrderItem> getItems() {
+        return new ArrayList<>(items);
+    }
 }
